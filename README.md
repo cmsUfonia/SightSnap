@@ -1,0 +1,2 @@
+# SightSnap
+Overview of SightSnap
