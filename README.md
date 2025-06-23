@@ -5,7 +5,6 @@ graph TD
     A[Surgery] --> B[3 Weeks Post-Op Dora Call];
 
     subgraph "SightSnap Process"
-        direction TD
         C[6 Weeks Post-Op SMS from Ufonia requesting photo of prescription]
         D[Patient takes photo and sends to Ufonia]
         E[Ufonia converts Photo to Data]
