@@ -8,7 +8,7 @@ graph TD
     D --> E[Ufonia converts Photo to Data];
     E --> F[12 Weeks Post-Op PROMS Dora Call];
 
-    %% Styling for the SightSnap process links (B to C, C to D, D to E) - Moved comments to separate lines
-    linkStyle 1 stroke:#0000FF,stroke-width:2px;
-    linkStyle 2 stroke:#0000FF,stroke-width:2px;
-    linkStyle 3 stroke:#0000FF,stroke-width:2px;
+    %% Styling for the SightSnap core process nodes (B, C, D)
+    style B fill:#E0FFFF,stroke:#4CAF50,stroke-width:2px; %% Light Cyan box, green border
+    style C fill:#E0FFFF,stroke:#4CAF50,stroke-width:2px;
+    style D fill:#E0FFFF,stroke:#4CAF50,stroke-width:2px;
