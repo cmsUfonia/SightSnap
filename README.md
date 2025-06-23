@@ -12,7 +12,7 @@ graph TD
     E --> H[Eliminates In-person Visits & New Commissioning];
 
     D -- "6 Weeks Post-Op" --> I(Patient receives SMS from Ufonia);
-    I -- Requests --> J[Optometrist's Prescription Photo]; /* SIMPLIFIED TEXT HERE */
+    I -- Requests --> J[Optometrist's Prescription Photo];
     D -- "Provides" --> J;
     J -- "Converted by" --> K[Ufonia's Technology];
     K -- Into --> L[Structured Data];
