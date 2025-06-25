@@ -5,9 +5,9 @@ graph TD
     A[Surgery] --> B[3 Weeks Post-Op Dora Call];
 
     subgraph "SightSnap Process"
-        C[6 Weeks Post-Op SMS from Ufonia requesting photo of prescription]
-        D[Patient takes photo and sends to Ufonia]
-        E[Ufonia converts Photo to Data]
+        C[Following surgery, patients receive an SMS from Ufonia\nreminding them to attend their optometrist for a sight test\nand to request a free copy of their refraction result.]
+        D[Patients are sent a personalised link\nand asked to take a photo of their result.]
+        E[The refraction result is then recorded\nalongside the patient details.]
 
         C --> D
         D --> E
