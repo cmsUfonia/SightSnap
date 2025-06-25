@@ -13,7 +13,7 @@ graph TD
         D --> E
     end
 
-    B --> C; %% One single arrow entering the SightSnap subgraph
+    B --> C;
     E --> F[12 Weeks Post-Op PROMS Dora Call];
 
     style C fill:#E0FFFF,stroke:#4CAF50,stroke-width:2px;
